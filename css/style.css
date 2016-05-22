@@ -1,0 +1,45 @@
+		body{
+			background:  #d7991c;
+			padding: 0;
+			margin: 0;
+		}
+		.firstHalf, 
+		.secondHalf{
+			width: 300px;
+			height: 300px;
+			border:20px solid white;
+			border-radius: 100%;
+			position: absolute;
+			background: #d7991c;
+		}
+		.firstHalf{
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			clip:rect(0px, 170px, 340px, 0px);
+		}
+		.secondHalf{
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			clip: rect(0px, 170px, 340px, 0px);
+			border:20px solid #d7991c;
+		}
+		p{
+			position: absolute;
+			height: 200px;
+			line-height: 200px;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			font-size: 85px;
+			color: white;
+			text-align: center;
+			vertical-align: middle;
+		}
